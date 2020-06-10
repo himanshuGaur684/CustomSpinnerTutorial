@@ -28,8 +28,8 @@ class MainActivity : AppCompatActivity() {
         customArrayAdapter= CustomArrayAdapter(this,list)
 
         customArrayAdapter.notifyDataSetChanged()
-        spinner_custom.adapter=customArrayAdapter
-       // our_list_view.adapter=customArrayAdapter
+      //  spinner_custom.adapter=customArrayAdapter
+        our_list_view.adapter=customArrayAdapter
 
 
     }

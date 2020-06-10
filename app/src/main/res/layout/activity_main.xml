@@ -8,13 +8,13 @@
     <ListView
         android:id="@+id/our_list_view"
         android:layout_width="match_parent"
-        android:layout_below="@+id/spinner_custom"
+
         android:layout_height="match_parent"
        />
-    <androidx.appcompat.widget.AppCompatSpinner
+  <!--  <androidx.appcompat.widget.AppCompatSpinner
         android:layout_width="match_parent"
 
         android:layout_marginTop="20dp"
         android:layout_height="wrap_content"
-        android:id="@+id/spinner_custom"/>
+        android:id="@+id/spinner_custom"/>-->
 </RelativeLayout>

@@ -8,7 +8,7 @@ import android.widget.BaseAdapter
 import android.widget.TextView
 import com.makeramen.roundedimageview.RoundedImageView
 
-class CustomArrayAdapter(val activity: Activity,val list:List<OurData>) : BaseAdapter(){//ArrayAdapter<OurData>(activity,R.layout.list_item,list){
+class CustomArrayAdapter(val activity: Activity,val list:List<OurData>) : ArrayAdapter<OurData>(activity,R.layout.list_item,list) {//BaseAdapter(){
 
     override fun getCount(): Int {
         return list.size
